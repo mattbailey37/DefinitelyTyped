@@ -217,6 +217,8 @@ declare namespace JQueryValidation
     interface Validator
     {
         element(element: string|JQuery): boolean;
+        
+        checkForm(): boolean;
         /**
          * Validates the form, returns true if it is valid, false otherwise.
          */
